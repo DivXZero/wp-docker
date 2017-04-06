@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  wordpress:
+    build:
+      context: .
+    ports:
+      - 666:80
